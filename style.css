@@ -1,0 +1,69 @@
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(rgba(0, 0, 10, 0.5), rgba(0, 0, 10, 0.5)),
+    url("427800.jpg");
+  background-size: cover;
+  font-family: "Oswald", sans-serif;
+}
+nav {
+  position: fixed;
+  width: 100%;
+  line-height: 60px;
+}
+.nav-links {
+  float: right;
+  margin: 0;
+  padding-right: 42px;
+}
+.nav-links li {
+  display: inline-block;
+  padding: 16px 32px;
+}
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+}
+.logo {
+  height: 48px;
+  float: left;
+  margin: 16px 48px;
+}
+.free {
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-size: 36px;
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 40%;
+}
+.about {
+  position: absolute;
+  top: 200%;
+  left: 20%;
+  margin-bottom: 300px;
+}
+.about p {
+  position: relative;
+  display: flex;
+  z-index: -2;
+  color: white;
+  font-size: 30px;
+}
+nav.black {
+  background: #000;
+}
+.about h3 {
+  top: 150px;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
